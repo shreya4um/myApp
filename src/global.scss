@@ -37,5 +37,11 @@
 // @import "@ionic/angular/css/palettes/dark.system.css";
 :root {
     --ion-color-warning: #f69200;
-  
+    --ion-color-success-light: #cce8b5;
+    --ion-color-success: #00ac94;
   }
+
+
+  ion-progress-bar{ height: 40px; border-radius: 0px; margin: 5px 0;}
+  .light-success{ background-color: var(--ion-color-success-light);}
+  ion-footer{ background-color: #fff;}

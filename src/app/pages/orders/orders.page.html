@@ -31,13 +31,97 @@
 
 
 
-<ion-content  class="ion-padding ion-text-center">
+<ion-content  class="ion-padding ">
 
-  <div class="form-row ion-text-center" >
-    <p >No manifest is currently available</p>
-    <ion-button expand="block" color="warning"  class="ion-padding text-light">GET MANIFEST</ion-button>
 
-    </div>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="8">
+          <ion-row>
+            <ion-col>Orders</ion-col>
+            <ion-col class="label-bold ion-text-end">2</ion-col>
+          
+          </ion-row>
+
+          <ion-row>
+            <ion-col>Total # parcels</ion-col>
+            <ion-col class="label-bold ion-text-end">2/2</ion-col>
+          
+          </ion-row>
+
+      </ion-col>
+      <ion-col size="4" class="ion-text-center">   
+        <img src="assets/scan-icon.png" alt="scan icon"  />
+      <p> Scan all</p>
+      </ion-col>
+    
+    </ion-row>
+  </ion-grid>
+  <label>Pickup/scanning status</label>
+  <ion-progress-bar color="success" [value]="progress"></ion-progress-bar>
+
+
+   <ion-card class="light-success list-card">
+    <ion-row class="ion-no-padding">
+      <ion-col>
+        <ion-card-subtitle>Order #: SGH240309A5642</ion-card-subtitle>
+       <p> # of packages: 1</p>
+       <p> For R Lie Ko</p>
+        <p>125 TOA PAYOH #07-529</p>
+        <p>310125 SINGAPORE</p>
+        </ion-col>
+      <ion-col>
+        <p>HOME</p>
+        <ion-card-title>MEDICINE_RX</ion-card-title>
+        <p>COORDINATE</p>
+        <p class="delivery-time">11:00 - 14:00</p>
+      </ion-col>
+    
+    </ion-row>
+    </ion-card>
+
+    <ion-card class="light-success  list-card">
+      <ion-row class="ion-no-padding">
+        <ion-col>
+          <ion-card-subtitle>Order #: SGH240309A5642</ion-card-subtitle>
+         <p> # of packages: 1</p>
+         <p> For R Lie Ko</p>
+          <p>125 TOA PAYOH #07-529</p>
+          <p>310125 SINGAPORE</p>
+          </ion-col>
+        <ion-col>
+          <p>HOME</p>
+          <ion-card-title>MEDICINE_RX</ion-card-title>
+          <p>COORDINATE</p>
+          <p class="delivery-time">11:00 - 14:00</p>
+        </ion-col>
+      
+      </ion-row>
+      </ion-card>
+  
+
+ 
 </ion-content>
-</div>
+
+
+
+  <ion-footer>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="block" color="warning">
+          <ion-icon slot="start" name="scan-outline"></ion-icon>
+          Scan
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button expand="block" color="medium">
+          Start Delivery
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-footer>
+  </div>
 </ion-app>
+
+
+

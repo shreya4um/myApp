@@ -1,0 +1,60 @@
+
+
+
+  
+  .wifi-badge{ position: relative;
+    span{ position: absolute; border-radius: 3px; right:5px; top:-8px; display: inline-block; font-size: 12px;  background-color: black; padding: 3px; color: #fff;}
+  }
+
+
+ion-header {
+    ion-title {
+      display: flex;
+      justify-content: center;
+      img {
+        height: 30px;
+      }
+    }
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .ion-progress-bar  {
+    background-color: #008000; /* green color */
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .delivery-time {
+    font-weight: bold;
+    color: red;
+  }
+  
+  ion-footer {
+    ion-button {
+      --border-radius: 0;
+    }
+  }
+  
+  ion-card {
+    margin-bottom: 10px;
+    ion-card-subtitle {
+      font-size: 0.9em;
+      color: gray;
+    }
+    ion-card-title {
+      color: red;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+  .logo{
+    width: 80px;
+   
+  }
+  
+  .label-bold{ font-size: 25px; font-weight: bold;}
+  .list-card{ margin: 15px 0 !important; padding: 10px;}
