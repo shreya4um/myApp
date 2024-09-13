@@ -43,8 +43,23 @@
     --ion-color-medium-light: #858585;
   }
 
-
+  .logo{
+    width: 80px;
+   
+  }
   ion-progress-bar{ height: 40px; border-radius: 0px; margin: 5px 0;}
   .light-success{ background-color: var(--ion-color-success-light);}
   ion-footer{ background-color: #fff;}
   .dark-bg{ background-color: var(--ion-color-medium); }
+  .list-card-action {   
+    .item-inner{ border-bottom: 0;}
+  }
+
+
+.small-card {
+
+  ion-item { 
+    div{}
+
+  }
+}

@@ -1,14 +1,54 @@
 .drop-off {
-    font-weight: bold;
-    color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: center;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.customer-details ion-icon {
+  margin-bottom: 10px;
+}
+
+.small-card {
+  margin: 5px 0;
+  padding: 0;
+  box-shadow: 0 0 5px #ccc;
+
+  ion-checkbox {
+    position: absolute;
+    left: 10px;
+    top: -24px;
+    height: 30px;
   }
-  .center-content {
-    text-align: center;
+
+  ion-button {
+    position: absolute;
+    right: 6px;
+    top: -24px;
+    height: 25px; width:25px;
   }
-  
-  .customer-details ion-icon {
-    margin-bottom: 10px;
+
+  ion-item {
+    padding-top: 30px;
+    position: relative;
+    overflow: visible; 
   }
-  
+ 
+}
+
+.list-card-action {
+  margin: 5px 0;
+  padding: 5px 0;
+  box-shadow: none;
+  .user-detail{
+    h5{ margin: 0px;}
+    p{margin: 0px;}
+  }
+  ion-item{ padding: 10px 0; margin: 0px;}
+  .item-inner{ border-bottom: 0;}
+}
