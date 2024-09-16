@@ -1,0 +1,17 @@
+ion-card {
+    margin-bottom: 10px;
+    ion-card-subtitle {
+      font-size: 0.9em;
+      color: gray;
+    }
+    ion-card-title {
+     
+      color: blue;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+}
+
+.red-text { color: var(--ion-color-danger);
+}
+.delivery-time{ color: var(--ion-color-warning);}

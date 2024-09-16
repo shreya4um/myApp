@@ -24,6 +24,22 @@ const routes: Routes = [
     path: 'order-detail',
     loadChildren: () => import('./pages/order-detail/order-detail.module').then( m => m.OrderDetailPageModule)
   },
+  {
+    path: 'search-orders',
+    loadChildren: () => import('./pages/search-orders/search-orders.module').then( m => m.SearchOrdersPageModule)
+  },
+  {
+    path: 'order-status',
+    loadChildren: () => import('./pages/order-status/order-status.module').then( m => m.OrderStatusPageModule)
+  },
+  {
+    path: 'delivery',
+    loadChildren: () => import('./pages/delivery/delivery.module').then( m => m.DeliveryPageModule)
+  },
+  {
+    path: 'order-details2',
+    loadChildren: () => import('./pages/order-details2/order-details2.module').then( m => m.OrderDetails2PageModule)
+  },
  
 ];
 

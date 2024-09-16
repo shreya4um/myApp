@@ -1,0 +1,145 @@
+<ion-app>
+  <div class="ion-page" id="main-content">
+    <!-- Header Section -->
+    <ion-header>
+      <ion-toolbar color="warning">
+        <!-- Back Button -->
+        <ion-buttons slot="start" class="ion-padding">
+          <ion-icon size="large" name="arrow-back-outline"></ion-icon>
+        </ion-buttons>
+
+        <!-- Logo and Area Info -->
+        <img src="assets/menu-logo.png" alt="Beez Logo" class="logo" />
+        <span class="drop-off">40000</span>
+
+        <!-- Location Icon -->
+        <ion-buttons slot="end" class="ion-padding">
+          <ion-icon name="location" class="ion-padding-end"></ion-icon>
+        </ion-buttons>
+      </ion-toolbar>
+    </ion-header>
+
+    <!-- Main Content Section -->
+    <ion-content class="ion-padding">
+     
+    
+        <!-- Parcel Info Card -->
+        <ion-grid>
+         
+          <ion-row>
+            <ion-col size="6"><ion-label> 
+            Drop off  <br> Deliver to <br>  <span class="highlight-text">MR META</span>
+              <br> 
+              322 ANG MO KIO AVENUE 3 #09-1934 560322 SINGAPORE 
+            </ion-label>
+            </ion-col>
+            <ion-col size="6" class="ion-text-right">
+              <ion-label>Order #: INFINITE_SG240731A3 007</ion-label>
+              <ion-card class="list-card-action">
+                <ion-item>
+                  <ion-icon name="gift" slot="start" size="large"></ion-icon>
+                  <div class="gift-detail">
+                    <h5>0/1</h5>
+                  </div>
+                  HOME
+                </ion-item>
+              </ion-card>
+
+              </ion-col>
+         
+        </ion-row>
+          <!-- Parcel Information Section -->
+   
+          <h5>Parcels</h5>
+          <ion-row>
+            <!-- Parcel 1 -->
+            <ion-col size="6">
+              <div class="small-card">
+                <ion-item>
+                  <ion-checkbox slot="start"></ion-checkbox>
+                  <ion-button shape="round" color="dark" slot="end">
+                    <ion-icon name="close-outline"></ion-icon>
+                  </ion-button>
+                  <ion-label>SGH240731A44 00-1</ion-label>
+                </ion-item>
+              </div>
+            </ion-col>
+
+            <!-- Parcel 2 -->
+            <ion-col size="6">
+              <div class="small-card">
+                <ion-item>
+                  <ion-checkbox slot="start"></ion-checkbox>
+                  <ion-button shape="round" color="dark" slot="end">
+                    <ion-icon name="close-outline"></ion-icon>
+                  </ion-button>
+                  <ion-label>SGH240731A44 00-1</ion-label>
+                </ion-item>
+              </div>
+            </ion-col>
+          </ion-row>
+     
+
+        <!-- Contact Card -->
+        <ion-card class="list-card-action">
+          <ion-item>
+            <ion-icon name="location"   size="large"></ion-icon>
+            <div class="user-detail" >
+              
+              <p class="ion-align-items-center">322 ANG MO KIO<br>
+                AVENUE 3 #09-1<br>
+               934560322 <br>
+               SINGAPORE <br> 
+               be on time</p>
+            </div>
+            <ion-button class="btn-rounded" shape="round" slot="end" color="warning">
+              
+              <ion-icon name="navigate-sharp" color="light" size="medium"></ion-icon>
+            </ion-button>
+          </ion-item>
+
+          <ion-item>
+            <ion-icon name="person-circle" slot="start" size="large"></ion-icon>
+            <div class="user-detail" class="ion-align-items-center">
+              <h5>MR NYDA</h5>
+              <p>98898644</p>
+            </div>
+            <ion-button class="btn-rounded" shape="round" slot="end" color="light">
+              <ion-icon name="call" size="medium"></ion-icon>
+            </ion-button>
+          </ion-item>
+        </ion-card>
+
+
+        <ion-card class="light-success list-card ion-no-padding ion-no-margin" >
+          <ion-row class="ion-no-padding">
+            <ion-col size="12">
+            
+              <p >be on time</p>
+            </ion-col>
+          
+          </ion-row>
+          </ion-card>
+      </ion-grid>
+    </ion-content>
+
+    <!-- Footer Section with Buttons -->
+    <ion-footer class="  light-success ">
+      <ion-card class="footer-location-card light-success ">
+        <ion-row class=" ion-align-items-center">
+         <ion-col size="6" class="ion-no-padding">
+          <ion-button  color="dark">
+          <ion-icon name="location"   size="large"></ion-icon> ARRIVED
+        </ion-button>
+        </ion-col>
+      
+          <ion-col size="6" class="ion-text-right ion-no-padding">
+            <ion-icon name="alert" size="large"></ion-icon>
+        
+        </ion-col>
+        </ion-row>
+      
+      </ion-card>
+    </ion-footer>
+  </div>
+</ion-app>
